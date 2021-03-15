@@ -16,13 +16,7 @@ class SongList extends Component {
             </button>
           </div>
           <div className="content">
-            Artist: {song.artist}
-            <br/>
-            Title: {song.title}
-            <br/>
-            Length: {song.length}
-            <br />
-            Date released: {song.released}
+            Song Title: {song.title}
           </div>
         </div>  
       );
