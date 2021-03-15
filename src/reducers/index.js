@@ -1,4 +1,4 @@
-export const songReducer = () => {
+export const songsReducer = () => {
   return [
     { 
       artist: 'Queen',  
