@@ -5,14 +5,17 @@ import SongDetail from './SongDetail';
 
 const App = () => {
   return (
-    <div className="ui container grid">
-      <div className="ui row">
-        <div className="column eight wide">
+    <div className="ui segment">
+      <div className="ui two column very relaxed grid">
+        <div className="column">
           <SongList />
         </div>
-        <div className="column eight wide">
+        <div className="column">
           <SongDetail />
         </div>
+      </div>
+      <div class="ui vertical divider">
+        and
       </div>
     </div>
   );
